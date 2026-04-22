@@ -2,7 +2,7 @@ function celebrate() {
     document.body.classList.add("dark");
 
     const messageBox = document.querySelector(".message-box");
-    messageBox.innerHTML = `<h1>🎉 Happy Birthday, Ell! 🎉</h1>`;
+    messageBox.innerHTML = `<h1>🎉 Happy Birthday, Della! 🎉</h1>`;
 
   for (let i = 0; i < 7; i++) {
     setTimeout(createFirework, i * 250);
